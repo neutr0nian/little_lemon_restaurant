@@ -1,9 +1,9 @@
 * {
-    font-family: 'Markazi Text', 'Karla', serif;
+    font-family: 'Arial' sans-serif;
 }
 
 label, input, select, textarea, p {
-    font-family: 'Karla';
+    font-family: 'Arial';
 }
 
 input, select, option, textarea {
@@ -46,8 +46,7 @@ a:visited, Link:visited, a:link, Link:link {
 .action-button {
     background-color: #F4CE14;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    border-radius: 0.2rem;
-    font-family: 'Karla';
+    border-radius: 0.4rem;
     font-size: 2rem;
 }
 
@@ -65,8 +64,10 @@ a:visited, Link:visited, a:link, Link:link {
 }
 
 /* NAVBAR STYLING */
+
+
 .navbar-menu {
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
 }
 
@@ -153,8 +154,9 @@ a:visited, Link:visited, a:link, Link:link {
 }
 
 .menu-card {
-    background-color: #EDEFEE;
+    background-color: #f1f1f1;
     padding-bottom: 1rem;
+    border-radius: 0.8rem;
 }
 
 .menu-card > img {
@@ -179,9 +181,9 @@ a:visited, Link:visited, a:link, Link:link {
 
 .special-button {
     background-color: #F4CE14;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     font-size: 1.5rem;
-    padding: 0.5rem;
+    padding: 10px 30px 10px 30px;
 }
 
 .special-button:hover {
@@ -305,7 +307,7 @@ footer > menu {
     display: block;
     color: white;
     padding-top: 0.2rem;
-    font-family: 'Karla', 'Sans Serif';
+    font-family: 'Arial' sans-serif;
 
 }
 
@@ -397,7 +399,7 @@ footer > menu {
     padding: 2vh 2rem 2vh 2rem;
     border-radius: 0.5rem;
     min-width: 12vw;
-    font-family: 'Karla';
+    font-family: 'Arial' sans-serif;
     font-size: 18px;
   }
 
